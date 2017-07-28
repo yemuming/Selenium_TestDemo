@@ -1,0 +1,4 @@
+#网易云音乐首页
+搜索输入框:
+  type: xpath
+  value: ".//div[@id='g_search']/div/span/input"
