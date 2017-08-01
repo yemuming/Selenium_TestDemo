@@ -12,6 +12,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
+
 import  static tools.ParseYamUntil.locators;
 import  static tools.ParseYamUntil.settings;
 public class WebDriverUntil {
@@ -34,6 +36,8 @@ public class WebDriverUntil {
     public  static WebDriver getWebDriver(){
         WebDriver driver=null;
         if ("chrome".equals(browser_type)){
+            File file= new File("C://Program Files (x86)//Google/Chrome//Application/chrome.exe");
+            System.setProperty("webdriver.chrome.driver",file.getAbsolutePath());
             driver= new ChromeDriver();
         }else if("IE".equals(browser_type)){
             driver=new InternetExplorerDriver();
