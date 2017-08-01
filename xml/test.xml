@@ -4,7 +4,7 @@
     <test name="WebUI">
         <parameter name="test" value="wild wild web" />
         <classes>
-            <class name="play.TestPlayMusic"/>
+            <class name="paly.TestPlayMusic"/>
         </classes>
     </test>
 </suite>
