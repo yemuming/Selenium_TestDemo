@@ -30,7 +30,8 @@ public class WebDriverUntil {
     /**
      *  获取driver
      * @return
-     */  public  static WebDriver getWebDriver(){
+     */
+    public  static WebDriver getWebDriver(){
         WebDriver driver=null;
         if ("chrome".equals(browser_type)){
             driver= new ChromeDriver();

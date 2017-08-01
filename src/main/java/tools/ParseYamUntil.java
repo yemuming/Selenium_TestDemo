@@ -14,11 +14,11 @@ public class ParseYamUntil {
         public  static HashMap<String, HashMap<String,String>> settings;
         public  static HashMap<String, HashMap<String,String>> locators;
         public  static HashMap<String, HashMap<String,String>> parseLocatorFile(String FileName){
-            File file=new File("src/main/resources/locator/"+FileName+".yaml");
+            File file=new File("src/main/resources/config/Setting.yaml");
             try {
                 locators= Yaml.loadType(new FileInputStream(file.getAbsolutePath()),HashMap.class);
             }catch (Exception e){
-            e.printStackTrace();
+                e.printStackTrace();
             }
             return locators;
         }
