@@ -12,8 +12,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import  static  tools.ParseYamUntil.locators;
-import  static  tools.ParseYamUntil.settings;
+import  static tools.ParseYamUntil.locators;
+import  static tools.ParseYamUntil.settings;
 public class WebDriverUntil {
 
         private  static  String browser_type;
