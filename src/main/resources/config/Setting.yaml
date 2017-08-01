@@ -3,7 +3,7 @@
 #测试站点信息
 #测试数据库连接信息
 browser_type:
-   value: ChromeDriver
+   value: chrome
 site_url:
   value: http://music.163.com/
 db_info:
